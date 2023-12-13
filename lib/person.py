@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
-class Person:
-    # Class body goes here
 
-    #Instance method definition
-    pass
+class Person:
+    def __init__(self, name="Person"):
+        self.name = name
+
+    def talk(self):
+        print("Hello World!")
